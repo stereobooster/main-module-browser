@@ -1,0 +1,13 @@
+{
+  "name": "main-module-browser",
+  "version": "0.0.1",
+  "description": "test package",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "browser": {
+    "./dist/index.js": "./dist/index.browser.js",
+    "./dist/index.esm.js": "./dist/index.browser.esm.js"
+  },
+  "author": "stereobooster <stereobooster@gmail.com>",
+  "license": "MIT"
+}
